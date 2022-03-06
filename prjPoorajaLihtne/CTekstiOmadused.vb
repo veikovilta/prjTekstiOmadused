@@ -5,12 +5,12 @@
     Private _boolPalindroom As Boolean
 
 
-    Property palindroom As Boolean
+    Property boolPalindroom As Boolean
         Get
             Return _boolPalindroom
         End Get
         Set(value As Boolean)
-            _boolPalindroom = palindroom
+            _boolPalindroom = boolPalindroom
         End Set
     End Property
 
